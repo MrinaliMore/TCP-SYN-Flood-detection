@@ -11,7 +11,7 @@ In case there is no bridge xenbr0, create one:
 ‘ovs-vsctl add-br xenbr0’   // This will create the openVswitch bridge or datapath named ‘xenbr0’
 Ref: https://www.youtube.com/watch?v=rYW7kQRyUvA&index=1&list=LLdvT8AVpA4tyZz9FYUi4Mcg
 
-Git clone the repository
+Git clone the repository. Install tcpreplay.
 
 Step 3. Attach vif to eth port as you did in exercise 2
 •	Check which interface has an active host-only IP (192.168.56.*) -- pick eth1
